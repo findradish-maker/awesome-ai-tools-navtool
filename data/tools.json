@@ -1,0 +1,2004 @@
+{
+  "schema_version": "1.2",
+  "title": "Awesome AI Tools · 探兔AI导航",
+  "website": "https://www.navtool.cn/",
+  "updated_at": "2026-10-19",
+  "sources": [
+    "https://www.navtool.cn/",
+    "https://www.navtool.cn/tools/ai_audio_tools",
+    "https://www.navtool.cn/tools/ai_design_tools",
+    "https://www.navtool.cn/tools/ai_dialog_tools",
+    "https://www.navtool.cn/tools/ai_documentation_tool",
+    "https://www.navtool.cn/tools/ai_image_tools",
+    "https://www.navtool.cn/tools/ai_learning_website",
+    "https://www.navtool.cn/tools/ai_meeting_tools",
+    "https://www.navtool.cn/tools/ai_mind_map",
+    "https://www.navtool.cn/tools/ai_slides_and_presentations",
+    "https://www.navtool.cn/tools/ai_translation_tools",
+    "https://www.navtool.cn/tools/ai_video_tools",
+    "https://www.navtool.cn/tools/ai_writer_tools"
+  ],
+  "scope": "An editorial selection of public site listings, not a full website export or live API.",
+  "link_policy": "Tool entries are based on public NavTool listings. Marketing parameters are removed. Two resource URLs are corrected to their direct destinations. Upstream availability, pricing and licensing are not certified.",
+  "license": "CC-BY-4.0",
+  "categories": [
+    {
+      "id": "chat",
+      "name": "AI 对话与通用助手",
+      "name_en": "Chat & AI Assistants",
+      "short_name_en": "Chat",
+      "description": "问答、写作、资料整理，先找到一个顺手的 AI 助手。",
+      "description_en": "Find an assistant for questions, writing, and working with information.",
+      "navtool_url": "https://www.navtool.cn/tools/ai_dialog_tools"
+    },
+    {
+      "id": "coding",
+      "name": "AI 编程与应用构建",
+      "name_en": "AI Coding & App Builders",
+      "short_name_en": "Coding",
+      "description": "写代码、读项目、做原型，把需求推进到可运行的应用。",
+      "description_en": "Write code, understand a codebase, or turn an idea into a working prototype.",
+      "navtool_url": "https://www.navtool.cn/tools/ai_programming_tools"
+    },
+    {
+      "id": "agents",
+      "name": "Agent、工作流与 RAG",
+      "name_en": "Agents, Workflows & RAG",
+      "short_name_en": "Agents & RAG",
+      "description": "把模型、文档、工具调用和业务步骤串成工作流。",
+      "description_en": "Connect models, documents, tools, and application workflows.",
+      "navtool_url": "https://www.navtool.cn/tools/ai_development_platform"
+    },
+    {
+      "id": "local-ai",
+      "name": "本地模型与聊天客户端",
+      "name_en": "Local AI & Chat Clients",
+      "short_name_en": "Local AI",
+      "description": "从本地运行模型，到统一管理多个模型服务。",
+      "description_en": "Run models locally or manage several model providers in one place.",
+      "navtool_url": "https://www.navtool.cn/tools/ai_dialog_tools"
+    },
+    {
+      "id": "search",
+      "name": "AI 搜索与研究",
+      "name_en": "AI Search & Research",
+      "short_name_en": "Search",
+      "description": "带着具体问题查资料、找线索，再回到原始来源核对。",
+      "description_en": "Search for information and research leads, then check the original sources.",
+      "navtool_url": "https://www.navtool.cn/tools/ai_se"
+    },
+    {
+      "id": "documents",
+      "name": "文档解析与数据处理",
+      "name_en": "Documents & Data",
+      "short_name_en": "Documents",
+      "description": "读文档、提取内容、处理数据，为知识管理和 RAG 准备资料。",
+      "description_en": "Parse documents and prepare information for analysis, knowledge management, and RAG.",
+      "navtool_url": "https://www.navtool.cn/tools/ai_documentation_tool"
+    },
+    {
+      "id": "image",
+      "name": "AI 绘画与图像处理",
+      "name_en": "AI Images & Editing",
+      "short_name_en": "Images",
+      "description": "从图像生成到编辑与商品图制作，为具体创作找入口。",
+      "description_en": "Explore image generation, editing, and product-image workflows.",
+      "navtool_url": "https://www.navtool.cn/tools/ai_image_tools"
+    },
+    {
+      "id": "design",
+      "name": "AI 设计与视觉创作",
+      "name_en": "AI Design & Visual Creation",
+      "short_name_en": "Design",
+      "description": "为界面、品牌、信息图和 3D 设计寻找创作工具。",
+      "description_en": "Find tools for interfaces, branding, diagrams, and 3D concepts.",
+      "navtool_url": "https://www.navtool.cn/tools/ai_design_tools"
+    },
+    {
+      "id": "video",
+      "name": "AI 视频与教程制作",
+      "name_en": "AI Video & Tutorials",
+      "short_name_en": "Video",
+      "description": "从视觉内容创作到录屏教程、远程录制和视频理解。",
+      "description_en": "Create visual content, record tutorials, or add video understanding to an application.",
+      "navtool_url": "https://www.navtool.cn/tools/ai_video_tools"
+    },
+    {
+      "id": "audio",
+      "name": "AI 音频与语音",
+      "name_en": "AI Audio & Speech",
+      "short_name_en": "Audio",
+      "description": "语音转文字、声音合成、语音输入与音乐创作。",
+      "description_en": "Explore transcription, speech synthesis, voice input, and music creation.",
+      "navtool_url": "https://www.navtool.cn/tools/ai_audio_tools"
+    },
+    {
+      "id": "writing",
+      "name": "AI 写作与内容创作",
+      "name_en": "AI Writing & Content",
+      "short_name_en": "Writing",
+      "description": "写文章、整理材料、起草方案，再由人核对与润色。",
+      "description_en": "Draft articles, proposals, and work documents, then review and refine the result.",
+      "navtool_url": "https://www.navtool.cn/tools/ai_writer_tools"
+    },
+    {
+      "id": "slides",
+      "name": "AI PPT 与演示",
+      "name_en": "AI Slides & Presentations",
+      "short_name_en": "Slides",
+      "description": "从大纲开始整理演示内容，减少排版和反复修改。",
+      "description_en": "Turn an outline or a collection of notes into a presentation.",
+      "navtool_url": "https://www.navtool.cn/tools/ai_slides_and_presentations"
+    },
+    {
+      "id": "mindmap",
+      "name": "AI 思维导图与白板",
+      "name_en": "Mind Maps & Whiteboards",
+      "short_name_en": "Mind Maps",
+      "description": "把零散想法、长文和会议内容整理成可视化结构。",
+      "description_en": "Organize ideas, documents, and meeting content into visual structures.",
+      "navtool_url": "https://www.navtool.cn/tools/ai_mind_map"
+    },
+    {
+      "id": "meetings",
+      "name": "AI 会议与工作协作",
+      "name_en": "AI Meetings & Collaboration",
+      "short_name_en": "Meetings",
+      "description": "从会议转写到摘要和待办，让讨论留下可继续推进的记录。",
+      "description_en": "Turn discussions into transcripts, summaries, and actionable notes.",
+      "navtool_url": "https://www.navtool.cn/tools/ai_meeting_tools"
+    },
+    {
+      "id": "translation",
+      "name": "AI 翻译与语言工具",
+      "name_en": "AI Translation & Languages",
+      "short_name_en": "Translation",
+      "description": "处理跨语言阅读、文档理解与日常表达。",
+      "description_en": "Work across languages when reading, translating documents, or writing.",
+      "navtool_url": "https://www.navtool.cn/tools/ai_translation_tools"
+    },
+    {
+      "id": "learning",
+      "name": "AI 学习与提示词资源",
+      "name_en": "AI Learning & Prompting",
+      "short_name_en": "Learning",
+      "description": "从基础概念到可运行的示例，为使用和开发 AI 补齐知识。",
+      "description_en": "Build practical AI knowledge through courses, examples, and prompting resources.",
+      "navtool_url": "https://www.navtool.cn/tools/ai_learning_website"
+    }
+  ],
+  "tools": [
+    {
+      "id": "navtool-567",
+      "name": "ChatGPT",
+      "category": "chat",
+      "description": "通过对话进行问答、内容创作与资料分析",
+      "url": "https://chatgpt.com",
+      "navtool_url": "https://www.navtool.cn/tool/567.html",
+      "tags": [
+        "chat",
+        "assistant"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_dialog_tools",
+      "name_en": "ChatGPT",
+      "description_en": "Ask questions, create content, and analyze information through conversation."
+    },
+    {
+      "id": "navtool-565",
+      "name": "DeepSeek",
+      "category": "chat",
+      "description": "用于日常问答、推理与编程辅助",
+      "url": "https://www.deepseek.com",
+      "navtool_url": "https://www.navtool.cn/tool/565.html",
+      "tags": [
+        "chat",
+        "reasoning"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_dialog_tools",
+      "name_en": "DeepSeek",
+      "description_en": "Get help with everyday questions, reasoning, and programming."
+    },
+    {
+      "id": "navtool-633",
+      "name": "Kimi智能助手",
+      "category": "chat",
+      "description": "围绕资料阅读、搜索与内容创作进行对话",
+      "url": "https://www.kimi.com",
+      "navtool_url": "https://www.navtool.cn/tool/633.html",
+      "tags": [
+        "chat",
+        "documents"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_slides_and_presentations",
+      "name_en": "Kimi",
+      "description_en": "Read documents, search for information, and create content in conversation."
+    },
+    {
+      "id": "navtool-627",
+      "name": "豆包",
+      "category": "chat",
+      "description": "处理日常问答与多模态内容创作",
+      "url": "https://www.doubao.com/chat",
+      "navtool_url": "https://www.navtool.cn/tool/627.html",
+      "tags": [
+        "chat",
+        "multimodal"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_dialog_tools",
+      "name_en": "Doubao",
+      "description_en": "Handle everyday questions and multimodal content creation."
+    },
+    {
+      "id": "navtool-623",
+      "name": "通义千问",
+      "category": "chat",
+      "description": "通过对话完成问答与内容生成",
+      "url": "https://tongyi.aliyun.com",
+      "navtool_url": "https://www.navtool.cn/tool/623.html",
+      "tags": [
+        "chat",
+        "assistant"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_dialog_tools",
+      "name_en": "Qwen",
+      "description_en": "Ask questions and generate content with a conversational assistant."
+    },
+    {
+      "id": "navtool-625",
+      "name": "腾讯元宝",
+      "category": "chat",
+      "description": "结合对话和搜索辅助资料整理与创作",
+      "url": "https://yuanbao.tencent.com",
+      "navtool_url": "https://www.navtool.cn/tool/625.html",
+      "tags": [
+        "chat",
+        "search"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_dialog_tools",
+      "name_en": "Tencent Yuanbao",
+      "description_en": "Combine conversation and search for research and content work."
+    },
+    {
+      "id": "navtool-629",
+      "name": "讯飞星火",
+      "category": "chat",
+      "description": "用于问答、内容生成与办公辅助",
+      "url": "https://xinghuo.xfyun.cn",
+      "navtool_url": "https://www.navtool.cn/tool/629.html",
+      "tags": [
+        "chat",
+        "productivity"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_dialog_tools",
+      "name_en": "iFLYTEK Spark",
+      "description_en": "Get assistance with questions, content creation, and office tasks."
+    },
+    {
+      "id": "navtool-605",
+      "name": "Grok",
+      "category": "chat",
+      "description": "进行信息问答、内容创作与对话",
+      "url": "https://grok.com",
+      "navtool_url": "https://www.navtool.cn/tool/605.html",
+      "tags": [
+        "chat",
+        "assistant"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_dialog_tools",
+      "name_en": "Grok",
+      "description_en": "Ask questions, create content, and explore information through chat."
+    },
+    {
+      "id": "navtool-2204",
+      "name": "OpenCode",
+      "category": "coding",
+      "description": "在终端和开发环境中处理编程任务",
+      "url": "https://opencode.ai",
+      "navtool_url": "https://www.navtool.cn/tool/2204.html",
+      "tags": [
+        "coding",
+        "agent",
+        "cli"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "OpenCode",
+      "description_en": "Work on programming tasks in a terminal or development environment."
+    },
+    {
+      "id": "navtool-2114",
+      "name": "CodeBuddy（腾讯云代码助手）",
+      "category": "coding",
+      "description": "代码补全与开发任务协作",
+      "url": "https://www.codebuddy.cn",
+      "navtool_url": "https://www.navtool.cn/tool/2114.html",
+      "tags": [
+        "coding",
+        "ide",
+        "cli"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "CodeBuddy",
+      "description_en": "Get code completion and assistance with development tasks."
+    },
+    {
+      "id": "navtool-807",
+      "name": "Cursor",
+      "category": "coding",
+      "description": "在编辑器中理解、编写和修改代码",
+      "url": "https://cursor.com",
+      "navtool_url": "https://www.navtool.cn/tool/807.html",
+      "tags": [
+        "coding",
+        "ide"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "Cursor",
+      "description_en": "Understand, write, and modify code inside an editor."
+    },
+    {
+      "id": "navtool-845",
+      "name": "Windsurf",
+      "category": "coding",
+      "description": "结合 AI 助手的集成开发环境",
+      "url": "https://windsurf.com",
+      "navtool_url": "https://www.navtool.cn/tool/845.html",
+      "tags": [
+        "coding",
+        "ide"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "Windsurf",
+      "description_en": "Use an integrated development environment with AI assistance."
+    },
+    {
+      "id": "navtool-843",
+      "name": "Bolt",
+      "category": "coding",
+      "description": "通过自然语言搭建网页应用",
+      "url": "https://bolt.new",
+      "navtool_url": "https://www.navtool.cn/tool/843.html",
+      "tags": [
+        "coding",
+        "app-builder"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "Bolt",
+      "description_en": "Build web applications from natural-language instructions."
+    },
+    {
+      "id": "navtool-841",
+      "name": "Replit Agent",
+      "category": "coding",
+      "description": "通过对话构建和迭代应用",
+      "url": "https://docs.replit.com/replitai/agent",
+      "navtool_url": "https://www.navtool.cn/tool/841.html",
+      "tags": [
+        "coding",
+        "agent",
+        "app-builder"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "Replit Agent",
+      "description_en": "Build and iterate on applications through conversation."
+    },
+    {
+      "id": "navtool-853",
+      "name": "Wegic",
+      "category": "coding",
+      "description": "通过对话设计和搭建网站",
+      "url": "https://wegic.ai",
+      "navtool_url": "https://www.navtool.cn/tool/853.html",
+      "tags": [
+        "website",
+        "app-builder"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "Wegic",
+      "description_en": "Design and build websites through a conversational workflow."
+    },
+    {
+      "id": "navtool-847",
+      "name": "BLACKBOX AI",
+      "category": "coding",
+      "description": "辅助代码生成、理解与修改",
+      "url": "https://www.blackbox.ai",
+      "navtool_url": "https://www.navtool.cn/tool/847.html",
+      "tags": [
+        "coding",
+        "assistant"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "BLACKBOX AI",
+      "description_en": "Get help generating, understanding, and modifying code."
+    },
+    {
+      "id": "navtool-849",
+      "name": "文心快码",
+      "category": "coding",
+      "description": "辅助代码补全、理解与编程任务",
+      "url": "https://comate.baidu.com",
+      "navtool_url": "https://www.navtool.cn/tool/849.html",
+      "tags": [
+        "coding",
+        "assistant"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "Baidu Comate",
+      "description_en": "Get assistance with code completion and programming tasks."
+    },
+    {
+      "id": "navtool-851",
+      "name": "CodeArts Snap",
+      "category": "coding",
+      "description": "为开发过程提供智能编程辅助",
+      "url": "https://www.huaweicloud.com/product/codeartside/snap.html",
+      "navtool_url": "https://www.navtool.cn/tool/851.html",
+      "tags": [
+        "coding",
+        "assistant"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "CodeArts Snap",
+      "description_en": "Add intelligent coding assistance to a development workflow."
+    },
+    {
+      "id": "navtool-2106",
+      "name": "Dify",
+      "category": "agents",
+      "description": "搭建 AI 应用、工作流和知识库",
+      "url": "https://dify.ai",
+      "navtool_url": "https://www.navtool.cn/tool/2106.html",
+      "tags": [
+        "agent",
+        "workflow",
+        "rag"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "Dify",
+      "description_en": "Build AI applications, workflows, and knowledge bases."
+    },
+    {
+      "id": "navtool-2090",
+      "name": "FastGPT",
+      "category": "agents",
+      "description": "搭建知识库问答与 AI 工作流",
+      "url": "https://fastgpt.cn",
+      "navtool_url": "https://www.navtool.cn/tool/2090.html",
+      "tags": [
+        "agent",
+        "workflow",
+        "rag"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "FastGPT",
+      "description_en": "Build knowledge-base question answering and AI workflows."
+    },
+    {
+      "id": "navtool-2094",
+      "name": "RAGFlow",
+      "category": "agents",
+      "description": "从文档构建检索增强生成应用",
+      "url": "https://ragflow.io",
+      "navtool_url": "https://www.navtool.cn/tool/2094.html",
+      "tags": [
+        "rag",
+        "documents"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "RAGFlow",
+      "description_en": "Build retrieval-augmented applications from documents."
+    },
+    {
+      "id": "navtool-2132",
+      "name": "Langflow",
+      "category": "agents",
+      "description": "通过可视化组件编排 AI 应用",
+      "url": "https://www.langflow.org",
+      "navtool_url": "https://www.navtool.cn/tool/2132.html",
+      "tags": [
+        "agent",
+        "workflow",
+        "rag"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "Langflow",
+      "description_en": "Compose AI applications with visual components."
+    },
+    {
+      "id": "navtool-2183",
+      "name": "Qwen-Agent",
+      "category": "agents",
+      "description": "构建支持工具调用的智能体",
+      "url": "https://github.com/QwenLM/Qwen-Agent",
+      "navtool_url": "https://www.navtool.cn/tool/2183.html",
+      "tags": [
+        "agent",
+        "tool-use",
+        "rag"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "Qwen-Agent",
+      "description_en": "Develop agents that can call tools."
+    },
+    {
+      "id": "navtool-2286",
+      "name": "Relevance AI",
+      "category": "agents",
+      "description": "构建面向业务流程的 AI 智能体",
+      "url": "https://relevanceai.com",
+      "navtool_url": "https://www.navtool.cn/tool/2286.html",
+      "tags": [
+        "agent",
+        "workflow"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "Relevance AI",
+      "description_en": "Build AI agents for business workflows."
+    },
+    {
+      "id": "navtool-2254",
+      "name": "Lindy",
+      "category": "agents",
+      "description": "连接常用工作应用并编排自动化任务",
+      "url": "https://www.lindy.ai",
+      "navtool_url": "https://www.navtool.cn/tool/2254.html",
+      "tags": [
+        "agent",
+        "workflow",
+        "productivity"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "Lindy",
+      "description_en": "Connect work applications and automate routine workflows."
+    },
+    {
+      "id": "navtool-2216",
+      "name": "DeerFlow",
+      "category": "agents",
+      "description": "探索研究、编程与内容任务的智能体框架",
+      "url": "https://deerflow.tech",
+      "navtool_url": "https://www.navtool.cn/tool/2216.html",
+      "tags": [
+        "agent",
+        "research"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "DeerFlow",
+      "description_en": "Explore an agent framework for research, coding, and content tasks."
+    },
+    {
+      "id": "navtool-2077",
+      "name": "LM Studio",
+      "category": "local-ai",
+      "description": "在桌面下载、运行和调用本地模型",
+      "url": "https://lmstudio.ai",
+      "navtool_url": "https://www.navtool.cn/tool/2077.html",
+      "tags": [
+        "local-ai",
+        "desktop",
+        "inference"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_dialog_tools",
+      "name_en": "LM Studio",
+      "description_en": "Download, run, and call local models from a desktop application."
+    },
+    {
+      "id": "navtool-2097",
+      "name": "GPT4All",
+      "category": "local-ai",
+      "description": "在本地运行对话模型与文档问答",
+      "url": "https://www.nomic.ai/gpt4all",
+      "navtool_url": "https://www.navtool.cn/tool/2097.html",
+      "tags": [
+        "local-ai",
+        "desktop",
+        "documents"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_dialog_tools",
+      "name_en": "GPT4All",
+      "description_en": "Run conversational models and document question answering locally."
+    },
+    {
+      "id": "navtool-2064",
+      "name": "Open WebUI",
+      "category": "local-ai",
+      "description": "搭建多模型对话与知识库网页工作台",
+      "url": "https://openwebui.com",
+      "navtool_url": "https://www.navtool.cn/tool/2064.html",
+      "tags": [
+        "chat",
+        "self-hosted",
+        "rag"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_dialog_tools",
+      "name_en": "Open WebUI",
+      "description_en": "Set up a web workspace for model chat and knowledge bases."
+    },
+    {
+      "id": "navtool-2068",
+      "name": "AnythingLLM",
+      "category": "local-ai",
+      "description": "把文档接入 AI 助手和知识库",
+      "url": "https://anythingllm.com",
+      "navtool_url": "https://www.navtool.cn/tool/2068.html",
+      "tags": [
+        "chat",
+        "local-ai",
+        "rag"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_documentation_tool",
+      "name_en": "AnythingLLM",
+      "description_en": "Connect documents to an AI assistant and knowledge base."
+    },
+    {
+      "id": "navtool-2061",
+      "name": "Cherry Studio",
+      "category": "local-ai",
+      "description": "在桌面统一使用多个模型服务",
+      "url": "https://www.cherryai.com.cn",
+      "navtool_url": "https://www.navtool.cn/tool/2061.html",
+      "tags": [
+        "chat",
+        "desktop",
+        "multi-model"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_dialog_tools",
+      "name_en": "Cherry Studio",
+      "description_en": "Use multiple model providers from one desktop client."
+    },
+    {
+      "id": "navtool-2152",
+      "name": "LocalAI",
+      "category": "local-ai",
+      "description": "为本地模型提供兼容常见应用的推理接口",
+      "url": "https://localai.io",
+      "navtool_url": "https://www.navtool.cn/tool/2152.html",
+      "tags": [
+        "local-ai",
+        "inference",
+        "api"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "LocalAI",
+      "description_en": "Expose local models through application-compatible inference APIs."
+    },
+    {
+      "id": "navtool-2222",
+      "name": "KoboldCpp",
+      "category": "local-ai",
+      "description": "在本地运行 GGUF 模型并使用网页交互",
+      "url": "https://github.com/LostRuins/koboldcpp",
+      "navtool_url": "https://www.navtool.cn/tool/2222.html",
+      "tags": [
+        "local-ai",
+        "gguf",
+        "inference"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_dialog_tools",
+      "name_en": "KoboldCpp",
+      "description_en": "Run GGUF models locally with a web interface."
+    },
+    {
+      "id": "navtool-2149",
+      "name": "Khoj",
+      "category": "local-ai",
+      "description": "围绕笔记与个人资料进行搜索和问答",
+      "url": "https://khoj.dev",
+      "navtool_url": "https://www.navtool.cn/tool/2149.html",
+      "tags": [
+        "local-ai",
+        "documents",
+        "search"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_dialog_tools",
+      "name_en": "Khoj",
+      "description_en": "Search and ask questions about personal notes and documents."
+    },
+    {
+      "id": "navtool-1167",
+      "name": "Perplexity",
+      "category": "search",
+      "description": "结合 AI 问答进行信息搜索",
+      "url": "https://www.perplexity.ai",
+      "navtool_url": "https://www.navtool.cn/tool/1167.html",
+      "tags": [
+        "search",
+        "research"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "Perplexity",
+      "description_en": "Search for information with AI-assisted answers."
+    },
+    {
+      "id": "navtool-1183",
+      "name": "Exa AI",
+      "category": "search",
+      "description": "为应用接入网页搜索与信息检索",
+      "url": "https://exa.ai",
+      "navtool_url": "https://www.navtool.cn/tool/1183.html",
+      "tags": [
+        "search",
+        "api"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "Exa AI",
+      "description_en": "Add web search and information retrieval to applications."
+    },
+    {
+      "id": "navtool-1153",
+      "name": "Consensus",
+      "category": "search",
+      "description": "围绕科学文献查找研究信息",
+      "url": "https://consensus.app",
+      "navtool_url": "https://www.navtool.cn/tool/1153.html",
+      "tags": [
+        "search",
+        "research",
+        "papers"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "Consensus",
+      "description_en": "Search for information in scientific literature."
+    },
+    {
+      "id": "navtool-1157",
+      "name": "Phind",
+      "category": "search",
+      "description": "通过 AI 搜索与问答查找信息",
+      "url": "https://www.phind.com",
+      "navtool_url": "https://www.navtool.cn/tool/1157.html",
+      "tags": [
+        "search",
+        "assistant"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "Phind",
+      "description_en": "Find information through AI search and question answering."
+    },
+    {
+      "id": "navtool-1185",
+      "name": "Felo",
+      "category": "search",
+      "description": "通过自然语言搜索与整理信息",
+      "url": "https://felo.ai/search",
+      "navtool_url": "https://www.navtool.cn/tool/1185.html",
+      "tags": [
+        "search",
+        "research"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "Felo",
+      "description_en": "Search and organize information with natural-language queries."
+    },
+    {
+      "id": "navtool-1181",
+      "name": "Genspark",
+      "category": "search",
+      "description": "辅助信息检索、研究与内容整理",
+      "url": "https://www.genspark.ai",
+      "navtool_url": "https://www.navtool.cn/tool/1181.html",
+      "tags": [
+        "search",
+        "research"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "Genspark",
+      "description_en": "Get assistance with information search, research, and synthesis."
+    },
+    {
+      "id": "navtool-1165",
+      "name": "知乎直答",
+      "category": "search",
+      "description": "通过问答查找与整理知识信息",
+      "url": "https://zhida.zhihu.com",
+      "navtool_url": "https://www.navtool.cn/tool/1165.html",
+      "tags": [
+        "search",
+        "assistant"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "Zhihu Zhida",
+      "description_en": "Find and organize knowledge through question answering."
+    },
+    {
+      "id": "navtool-1175",
+      "name": "Glean",
+      "category": "search",
+      "description": "搜索与整合企业内部工作信息",
+      "url": "https://www.glean.com",
+      "navtool_url": "https://www.navtool.cn/tool/1175.html",
+      "tags": [
+        "search",
+        "enterprise"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "Glean",
+      "description_en": "Search and connect information across enterprise work systems."
+    },
+    {
+      "id": "navtool-2074",
+      "name": "MinerU",
+      "category": "documents",
+      "description": "将文档解析为适合检索的结构化内容",
+      "url": "https://mineru.net",
+      "navtool_url": "https://www.navtool.cn/tool/2074.html",
+      "tags": [
+        "documents",
+        "parsing",
+        "rag"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_documentation_tool",
+      "name_en": "MinerU",
+      "description_en": "Parse documents into structured content for retrieval."
+    },
+    {
+      "id": "navtool-2120",
+      "name": "Docling",
+      "category": "documents",
+      "description": "将 PDF、Office 和扫描图像转换为结构化内容",
+      "url": "https://docling.ai",
+      "navtool_url": "https://www.navtool.cn/tool/2120.html",
+      "tags": [
+        "documents",
+        "parsing"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_documentation_tool",
+      "name_en": "Docling",
+      "description_en": "Convert PDFs, Office files, and scans into structured content."
+    },
+    {
+      "id": "navtool-2180",
+      "name": "MarkItDown",
+      "category": "documents",
+      "description": "将常见文件转换为 Markdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "navtool_url": "https://www.navtool.cn/tool/2180.html",
+      "tags": [
+        "documents",
+        "markdown",
+        "parsing"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_documentation_tool",
+      "name_en": "MarkItDown",
+      "description_en": "Convert common file formats into Markdown."
+    },
+    {
+      "id": "navtool-2129",
+      "name": "PaddleOCR（飞桨 OCR）",
+      "category": "documents",
+      "description": "识别图片和文档中的文字、表格与版面",
+      "url": "https://www.paddleocr.ai",
+      "navtool_url": "https://www.navtool.cn/tool/2129.html",
+      "tags": [
+        "ocr",
+        "documents",
+        "parsing"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_documentation_tool",
+      "name_en": "PaddleOCR",
+      "description_en": "Extract text, tables, and layout information from images and documents."
+    },
+    {
+      "id": "navtool-1195",
+      "name": "办公小浣熊",
+      "category": "documents",
+      "description": "辅助处理与分析数据文件",
+      "url": "https://www.xiaohuanxiong.com",
+      "navtool_url": "https://www.navtool.cn/tool/1195.html",
+      "tags": [
+        "data",
+        "productivity"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "Xiaohuanxiong",
+      "description_en": "Get assistance processing and analyzing data files."
+    },
+    {
+      "id": "navtool-1670",
+      "name": "Gigasheet",
+      "category": "documents",
+      "description": "通过表格界面处理和分析数据",
+      "url": "https://www.gigasheet.com",
+      "navtool_url": "https://www.navtool.cn/tool/1670.html",
+      "tags": [
+        "data",
+        "spreadsheet"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "Gigasheet",
+      "description_en": "Process and analyze data in a spreadsheet-style interface."
+    },
+    {
+      "id": "navtool-2443",
+      "name": "Scribe",
+      "category": "documents",
+      "description": "把操作步骤整理为带截图的流程指南",
+      "url": "https://scribe.com",
+      "navtool_url": "https://www.navtool.cn/tool/2443.html",
+      "tags": [
+        "tutorials",
+        "documents",
+        "sop"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_documentation_tool",
+      "name_en": "Scribe",
+      "description_en": "Turn a sequence of actions into a screenshot-based process guide."
+    },
+    {
+      "id": "navtool-2201",
+      "name": "Open Notebook",
+      "category": "documents",
+      "description": "整理资料并进行带来源的研究问答",
+      "url": "https://www.open-notebook.ai",
+      "navtool_url": "https://www.navtool.cn/tool/2201.html",
+      "tags": [
+        "documents",
+        "research",
+        "notes"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_documentation_tool",
+      "name_en": "Open Notebook",
+      "description_en": "Organize source material and ask research questions with references."
+    },
+    {
+      "id": "navtool-249",
+      "name": "Stable Diffusion",
+      "category": "image",
+      "description": "探索文本到图像的生成模型与工具",
+      "url": "https://stability.ai",
+      "navtool_url": "https://www.navtool.cn/tool/249.html",
+      "tags": [
+        "image",
+        "generation"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "Stable Diffusion",
+      "description_en": "Explore text-to-image models and generation tools."
+    },
+    {
+      "id": "navtool-245",
+      "name": "Midjourney",
+      "category": "image",
+      "description": "通过提示词创作图像",
+      "url": "https://www.midjourney.com",
+      "navtool_url": "https://www.navtool.cn/tool/245.html",
+      "tags": [
+        "image",
+        "generation"
+      ],
+      "source_url": "https://www.navtool.cn/",
+      "name_en": "Midjourney",
+      "description_en": "Create images from text prompts."
+    },
+    {
+      "id": "navtool-2186",
+      "name": "ComfyUI",
+      "category": "image",
+      "description": "通过节点工作流组织图像与视频生成",
+      "url": "https://comfy.org",
+      "navtool_url": "https://www.navtool.cn/tool/2186.html",
+      "tags": [
+        "image",
+        "workflow",
+        "generation"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_image_tools",
+      "name_en": "ComfyUI",
+      "description_en": "Compose image and video generation with node-based workflows."
+    },
+    {
+      "id": "navtool-1786",
+      "name": "稿定AI",
+      "category": "image",
+      "description": "辅助创意图像与设计素材制作",
+      "url": "https://www.gaoding.art",
+      "navtool_url": "https://www.navtool.cn/tool/1786.html",
+      "tags": [
+        "image",
+        "design"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_image_tools",
+      "name_en": "Gaoding AI",
+      "description_en": "Create visual ideas and design assets with AI assistance."
+    },
+    {
+      "id": "navtool-1843",
+      "name": "MoPNG设计助手",
+      "category": "image",
+      "description": "处理图片背景、尺寸与图像编辑任务",
+      "url": "https://mopng.cn",
+      "navtool_url": "https://www.navtool.cn/tool/1843.html",
+      "tags": [
+        "image",
+        "editing"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_image_tools",
+      "name_en": "MoPNG",
+      "description_en": "Edit images, remove backgrounds, and adjust image dimensions."
+    },
+    {
+      "id": "navtool-1787",
+      "name": "PicDoc",
+      "category": "image",
+      "description": "将文字内容转换为图表与视觉表达",
+      "url": "https://www.picdoc.cn",
+      "navtool_url": "https://www.navtool.cn/tool/1787.html",
+      "tags": [
+        "image",
+        "diagrams"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_image_tools",
+      "name_en": "PicDoc",
+      "description_en": "Turn written content into diagrams and visual explanations."
+    },
+    {
+      "id": "navtool-2016",
+      "name": "BeePOP",
+      "category": "image",
+      "description": "围绕商品素材制作电商展示图",
+      "url": "https://beepop.net/",
+      "navtool_url": "https://www.navtool.cn/tool/2016.html",
+      "tags": [
+        "image",
+        "ecommerce"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_image_tools",
+      "name_en": "BeePOP",
+      "description_en": "Create ecommerce listing images from product assets."
+    },
+    {
+      "id": "navtool-2334",
+      "name": "Imgkits",
+      "category": "image",
+      "description": "通过在线工具进行图像编辑与处理",
+      "url": "https://imgkits.com",
+      "navtool_url": "https://www.navtool.cn/tool/2334.html",
+      "tags": [
+        "image",
+        "editing"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_image_tools",
+      "name_en": "Imgkits",
+      "description_en": "Edit and process images with online tools."
+    },
+    {
+      "id": "navtool-1951",
+      "name": "Napkin AI",
+      "category": "design",
+      "description": "将文字整理为图示与信息图",
+      "url": "https://www.napkin.ai",
+      "navtool_url": "https://www.navtool.cn/tool/1951.html",
+      "tags": [
+        "design",
+        "diagrams"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_slides_and_presentations",
+      "name_en": "Napkin AI",
+      "description_en": "Turn text into diagrams and infographics."
+    },
+    {
+      "id": "navtool-964",
+      "name": "Creatie",
+      "category": "design",
+      "description": "辅助产品界面与视觉设计",
+      "url": "https://creatie.ai",
+      "navtool_url": "https://www.navtool.cn/tool/964.html",
+      "tags": [
+        "design",
+        "ui"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_design_tools",
+      "name_en": "Creatie",
+      "description_en": "Get assistance with product interfaces and visual design."
+    },
+    {
+      "id": "navtool-1677",
+      "name": "Lovart",
+      "category": "design",
+      "description": "通过 AI 辅助多种视觉设计任务",
+      "url": "https://www.lovart.ai",
+      "navtool_url": "https://www.navtool.cn/tool/1677.html",
+      "tags": [
+        "design",
+        "creative"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_design_tools",
+      "name_en": "Lovart",
+      "description_en": "Work on a range of visual design tasks with AI assistance."
+    },
+    {
+      "id": "navtool-960",
+      "name": "Framer AI",
+      "category": "design",
+      "description": "辅助网站页面设计与构建",
+      "url": "https://www.framer.com/ai",
+      "navtool_url": "https://www.navtool.cn/tool/960.html",
+      "tags": [
+        "design",
+        "website"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_design_tools",
+      "name_en": "Framer AI",
+      "description_en": "Get assistance designing and building website pages."
+    },
+    {
+      "id": "navtool-952",
+      "name": "Spline AI",
+      "category": "design",
+      "description": "辅助 3D 场景与视觉设计",
+      "url": "https://spline.design/ai-generate",
+      "navtool_url": "https://www.navtool.cn/tool/952.html",
+      "tags": [
+        "design",
+        "three-d"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_design_tools",
+      "name_en": "Spline AI",
+      "description_en": "Create and explore 3D scenes and visual concepts."
+    },
+    {
+      "id": "navtool-966",
+      "name": "Looka",
+      "category": "design",
+      "description": "辅助 Logo 与品牌视觉设计",
+      "url": "https://looka.com",
+      "navtool_url": "https://www.navtool.cn/tool/966.html",
+      "tags": [
+        "design",
+        "branding"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_design_tools",
+      "name_en": "Looka",
+      "description_en": "Create logo and brand-identity concepts."
+    },
+    {
+      "id": "navtool-950",
+      "name": "FigJam AI",
+      "category": "design",
+      "description": "在白板中辅助整理想法与协作内容",
+      "url": "https://www.figma.com/figjam/ai",
+      "navtool_url": "https://www.navtool.cn/tool/950.html",
+      "tags": [
+        "design",
+        "whiteboard"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_design_tools",
+      "name_en": "FigJam AI",
+      "description_en": "Organize ideas and collaborative content on a whiteboard."
+    },
+    {
+      "id": "navtool-958",
+      "name": "Vizcom",
+      "category": "design",
+      "description": "把设计草图转化为视觉概念",
+      "url": "https://www.vizcom.com",
+      "navtool_url": "https://www.navtool.cn/tool/958.html",
+      "tags": [
+        "design",
+        "sketch"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_design_tools",
+      "name_en": "Vizcom",
+      "description_en": "Turn design sketches into visual concepts."
+    },
+    {
+      "id": "navtool-2446",
+      "name": "Clueso",
+      "category": "video",
+      "description": "把录屏或资料整理为教程视频与文档",
+      "url": "https://www.clueso.io",
+      "navtool_url": "https://www.navtool.cn/tool/2446.html",
+      "tags": [
+        "video",
+        "tutorials",
+        "documents"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_video_tools",
+      "name_en": "Clueso",
+      "description_en": "Turn recordings or source material into tutorial videos and documents."
+    },
+    {
+      "id": "navtool-2399",
+      "name": "Guidde",
+      "category": "video",
+      "description": "把软件操作录制整理为分步视频教程",
+      "url": "https://www.guidde.com",
+      "navtool_url": "https://www.navtool.cn/tool/2399.html",
+      "tags": [
+        "video",
+        "tutorials"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_video_tools",
+      "name_en": "Guidde",
+      "description_en": "Turn software recordings into step-by-step video tutorials."
+    },
+    {
+      "id": "navtool-2397",
+      "name": "Higgsfield AI",
+      "category": "video",
+      "description": "进行 AI 图像、视频与视觉特效创作",
+      "url": "https://higgsfield.ai",
+      "navtool_url": "https://www.navtool.cn/tool/2397.html",
+      "tags": [
+        "video",
+        "generation"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_video_tools",
+      "name_en": "Higgsfield AI",
+      "description_en": "Create AI images, videos, and visual effects."
+    },
+    {
+      "id": "navtool-2266",
+      "name": "LightX2V Studio",
+      "category": "video",
+      "description": "通过创作工作流组织视频与数字人素材",
+      "url": "https://x2v.light-ai.top/",
+      "navtool_url": "https://www.navtool.cn/tool/2266.html",
+      "tags": [
+        "video",
+        "workflow"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_video_tools",
+      "name_en": "LightX2V Studio",
+      "description_en": "Organize video and avatar assets through creative workflows."
+    },
+    {
+      "id": "navtool-2425",
+      "name": "Riverside",
+      "category": "video",
+      "description": "进行远程音视频录制与内容剪辑",
+      "url": "https://riverside.com",
+      "navtool_url": "https://www.navtool.cn/tool/2425.html",
+      "tags": [
+        "video",
+        "recording"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_video_tools",
+      "name_en": "Riverside",
+      "description_en": "Record remote audio and video, then edit the resulting content."
+    },
+    {
+      "id": "navtool-1949",
+      "name": "Twelve Labs",
+      "category": "video",
+      "description": "为应用接入视频搜索、理解与分析",
+      "url": "https://www.twelvelabs.io",
+      "navtool_url": "https://www.navtool.cn/tool/1949.html",
+      "tags": [
+        "video",
+        "understanding",
+        "api"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_video_tools",
+      "name_en": "Twelve Labs",
+      "description_en": "Add video search, understanding, and analysis to applications."
+    },
+    {
+      "id": "navtool-1796",
+      "name": "万兴喵影",
+      "category": "video",
+      "description": "进行视频剪辑与内容制作",
+      "url": "https://miao.wondershare.cn",
+      "navtool_url": "https://www.navtool.cn/tool/1796.html",
+      "tags": [
+        "video",
+        "editing"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_video_tools",
+      "name_en": "Wondershare Filmora",
+      "description_en": "Edit videos and produce visual content."
+    },
+    {
+      "id": "navtool-1596",
+      "name": "开拍",
+      "category": "video",
+      "description": "辅助短视频创作与内容处理",
+      "url": "https://www.kaipai.com",
+      "navtool_url": "https://www.navtool.cn/tool/1596.html",
+      "tags": [
+        "video",
+        "creative"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_video_tools",
+      "name_en": "Kaipai",
+      "description_en": "Get assistance creating and editing short-form videos."
+    },
+    {
+      "id": "navtool-2171",
+      "name": "WhisperX",
+      "category": "audio",
+      "description": "将语音转写并对齐到词级时间戳",
+      "url": "https://github.com/m-bain/whisperX",
+      "navtool_url": "https://www.navtool.cn/tool/2171.html",
+      "tags": [
+        "audio",
+        "asr",
+        "alignment"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_audio_tools",
+      "name_en": "WhisperX",
+      "description_en": "Transcribe speech and align words with timestamps."
+    },
+    {
+      "id": "navtool-2146",
+      "name": "FunASR",
+      "category": "audio",
+      "description": "开发语音识别和流式转写应用",
+      "url": "https://www.funasr.com",
+      "navtool_url": "https://www.navtool.cn/tool/2146.html",
+      "tags": [
+        "audio",
+        "asr",
+        "streaming"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_audio_tools",
+      "name_en": "FunASR",
+      "description_en": "Develop speech recognition and streaming transcription applications."
+    },
+    {
+      "id": "navtool-2198",
+      "name": "SenseVoice",
+      "category": "audio",
+      "description": "识别多语言语音及音频事件",
+      "url": "https://github.com/QwenAudio/SenseVoice",
+      "navtool_url": "https://www.navtool.cn/tool/2198.html",
+      "tags": [
+        "audio",
+        "asr",
+        "understanding"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_audio_tools",
+      "name_en": "SenseVoice",
+      "description_en": "Recognize multilingual speech and audio events."
+    },
+    {
+      "id": "navtool-2230",
+      "name": "CosyVoice",
+      "category": "audio",
+      "description": "开发多语言文本转语音与流式语音生成",
+      "url": "https://github.com/QwenAudio/CosyVoice",
+      "navtool_url": "https://www.navtool.cn/tool/2230.html",
+      "tags": [
+        "audio",
+        "tts",
+        "streaming"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_audio_tools",
+      "name_en": "CosyVoice",
+      "description_en": "Develop multilingual text-to-speech and streaming speech generation."
+    },
+    {
+      "id": "navtool-2233",
+      "name": "GPT-SoVITS",
+      "category": "audio",
+      "description": "探索语音合成与少样本声音复刻",
+      "url": "https://github.com/RVC-Boss/GPT-SoVITS",
+      "navtool_url": "https://www.navtool.cn/tool/2233.html",
+      "tags": [
+        "audio",
+        "tts",
+        "voice-cloning"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_audio_tools",
+      "name_en": "GPT-SoVITS",
+      "description_en": "Explore speech synthesis and few-shot voice cloning."
+    },
+    {
+      "id": "navtool-2236",
+      "name": "WhisperLive",
+      "category": "audio",
+      "description": "对麦克风、录音文件和音频流进行近实时转写",
+      "url": "https://github.com/collabora/WhisperLive",
+      "navtool_url": "https://www.navtool.cn/tool/2236.html",
+      "tags": [
+        "audio",
+        "asr",
+        "streaming"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_audio_tools",
+      "name_en": "WhisperLive",
+      "description_en": "Transcribe microphones, recordings, and audio streams in near real time."
+    },
+    {
+      "id": "navtool-2395",
+      "name": "Wispr Flow",
+      "category": "audio",
+      "description": "通过语音输入生成可编辑文字",
+      "url": "https://wisprflow.ai",
+      "navtool_url": "https://www.navtool.cn/tool/2395.html",
+      "tags": [
+        "audio",
+        "dictation"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_audio_tools",
+      "name_en": "Wispr Flow",
+      "description_en": "Turn spoken input into editable text."
+    },
+    {
+      "id": "navtool-2307",
+      "name": "Krisp",
+      "category": "audio",
+      "description": "处理音频降噪、会议转写与摘要",
+      "url": "https://krisp.ai",
+      "navtool_url": "https://www.navtool.cn/tool/2307.html",
+      "tags": [
+        "audio",
+        "meeting"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_audio_tools",
+      "name_en": "Krisp",
+      "description_en": "Reduce audio noise and generate meeting transcripts and summaries."
+    },
+    {
+      "id": "navtool-1950",
+      "name": "Vapi",
+      "category": "audio",
+      "description": "为开发者提供语音智能体构建能力",
+      "url": "https://vapi.ai",
+      "navtool_url": "https://www.navtool.cn/tool/1950.html",
+      "tags": [
+        "audio",
+        "agent",
+        "api"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_audio_tools",
+      "name_en": "Vapi",
+      "description_en": "Build voice agents for applications."
+    },
+    {
+      "id": "navtool-1114",
+      "name": "Sonauto",
+      "category": "audio",
+      "description": "辅助音乐生成与音频创作",
+      "url": "https://sonauto.ai",
+      "navtool_url": "https://www.navtool.cn/tool/1114.html",
+      "tags": [
+        "audio",
+        "music"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_audio_tools",
+      "name_en": "Sonauto",
+      "description_en": "Generate music and explore audio creation."
+    },
+    {
+      "id": "navtool-2046",
+      "name": "Arvow",
+      "category": "writing",
+      "description": "辅助 SEO 文章创作与发布流程",
+      "url": "https://arvow.com",
+      "navtool_url": "https://www.navtool.cn/tool/2046.html",
+      "tags": [
+        "writing",
+        "seo"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_writer_tools",
+      "name_en": "Arvow",
+      "description_en": "Work on SEO article creation and publishing workflows."
+    },
+    {
+      "id": "navtool-1997",
+      "name": "巧文书AI",
+      "category": "writing",
+      "description": "辅助方案与标书内容编写",
+      "url": "https://qiaowenshu.cn/index",
+      "navtool_url": "https://www.navtool.cn/tool/1997.html",
+      "tags": [
+        "writing",
+        "business"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_writer_tools",
+      "name_en": "Qiaowenshu AI",
+      "description_en": "Draft proposals and tender documents with AI assistance."
+    },
+    {
+      "id": "navtool-1981",
+      "name": "一点妙笔",
+      "category": "writing",
+      "description": "辅助公文与工作材料写作",
+      "url": "https://www.1dmiaobi.com",
+      "navtool_url": "https://www.navtool.cn/tool/1981.html",
+      "tags": [
+        "writing",
+        "business"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_writer_tools",
+      "name_en": "Yidian Miaobi",
+      "description_en": "Draft formal work documents with AI assistance."
+    },
+    {
+      "id": "navtool-1965",
+      "name": "材料星",
+      "category": "writing",
+      "description": "辅助职场材料创作、修改与排版",
+      "url": "https://www.cailiaoxing.com",
+      "navtool_url": "https://www.navtool.cn/tool/1965.html",
+      "tags": [
+        "writing",
+        "productivity"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_writer_tools",
+      "name_en": "Cailiaoxing",
+      "description_en": "Draft, revise, and format workplace documents."
+    },
+    {
+      "id": "navtool-1762",
+      "name": "公文宝",
+      "category": "writing",
+      "description": "辅助起草与整理公文内容",
+      "url": "https://www.gwb666.com",
+      "navtool_url": "https://www.navtool.cn/tool/1762.html",
+      "tags": [
+        "writing",
+        "business"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_writer_tools",
+      "name_en": "Gongwenbao",
+      "description_en": "Draft and organize formal work documents."
+    },
+    {
+      "id": "navtool-1697",
+      "name": "Copy2AI智能创作助手",
+      "category": "writing",
+      "description": "辅助多场景内容创作与批量生成",
+      "url": "https://www.copy2ai.com/creator.html",
+      "navtool_url": "https://www.navtool.cn/tool/1697.html",
+      "tags": [
+        "writing",
+        "creative"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_writer_tools",
+      "name_en": "Copy2AI",
+      "description_en": "Create content for different scenarios and generate drafts in batches."
+    },
+    {
+      "id": "navtool-58",
+      "name": "Gamma",
+      "category": "slides",
+      "description": "辅助生成与编辑演示内容",
+      "url": "https://gamma.app",
+      "navtool_url": "https://www.navtool.cn/tool/58.html",
+      "tags": [
+        "slides",
+        "presentation"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_slides_and_presentations",
+      "name_en": "Gamma",
+      "description_en": "Generate and edit presentation content."
+    },
+    {
+      "id": "navtool-1216",
+      "name": "AiPPT",
+      "category": "slides",
+      "description": "根据主题与资料生成演示文稿",
+      "url": "https://www.aippt.cn",
+      "navtool_url": "https://www.navtool.cn/tool/1216.html",
+      "tags": [
+        "slides",
+        "presentation"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_slides_and_presentations",
+      "name_en": "AiPPT",
+      "description_en": "Generate presentations from topics and source material."
+    },
+    {
+      "id": "navtool-1191",
+      "name": "WPS AI",
+      "category": "slides",
+      "description": "在办公流程中获得 AI 内容与文档辅助",
+      "url": "https://ai.wps.cn/",
+      "navtool_url": "https://www.navtool.cn/tool/1191.html",
+      "tags": [
+        "slides",
+        "productivity"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_slides_and_presentations",
+      "name_en": "WPS AI",
+      "description_en": "Get AI assistance with office content and documents."
+    },
+    {
+      "id": "navtool-1212",
+      "name": "ChatPPT",
+      "category": "slides",
+      "description": "通过对话生成和调整演示文稿",
+      "url": "https://www.chat-ppt.com",
+      "navtool_url": "https://www.navtool.cn/tool/1212.html",
+      "tags": [
+        "slides",
+        "presentation"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_slides_and_presentations",
+      "name_en": "ChatPPT",
+      "description_en": "Create and refine presentations through conversation."
+    },
+    {
+      "id": "navtool-84",
+      "name": "beautiful.ai",
+      "category": "slides",
+      "description": "通过智能模板组织演示文稿",
+      "url": "https://www.beautiful.ai",
+      "navtool_url": "https://www.navtool.cn/tool/84.html",
+      "tags": [
+        "slides",
+        "presentation"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_slides_and_presentations",
+      "name_en": "Beautiful.ai",
+      "description_en": "Organize presentations with intelligent templates."
+    },
+    {
+      "id": "navtool-63",
+      "name": "SlidesAI",
+      "category": "slides",
+      "description": "辅助把内容整理为演示幻灯片",
+      "url": "https://www.slidesai.io",
+      "navtool_url": "https://www.navtool.cn/tool/63.html",
+      "tags": [
+        "slides",
+        "presentation"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_slides_and_presentations",
+      "name_en": "SlidesAI",
+      "description_en": "Turn written content into presentation slides."
+    },
+    {
+      "id": "navtool-1512",
+      "name": "ProcessOn",
+      "category": "mindmap",
+      "description": "绘制流程图与思维导图",
+      "url": "https://www.processon.com",
+      "navtool_url": "https://www.navtool.cn/tool/1512.html",
+      "tags": [
+        "mindmap",
+        "diagrams"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_mind_map",
+      "name_en": "ProcessOn",
+      "description_en": "Create flowcharts and mind maps."
+    },
+    {
+      "id": "navtool-1523",
+      "name": "GitMind",
+      "category": "mindmap",
+      "description": "辅助创建与整理思维导图",
+      "url": "https://gitmind.cn",
+      "navtool_url": "https://www.navtool.cn/tool/1523.html",
+      "tags": [
+        "mindmap",
+        "diagrams"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_mind_map",
+      "name_en": "GitMind",
+      "description_en": "Create and organize mind maps with AI assistance."
+    },
+    {
+      "id": "navtool-1521",
+      "name": "知犀AI",
+      "category": "mindmap",
+      "description": "根据主题辅助生成思维导图",
+      "url": "https://www.swdt.com",
+      "navtool_url": "https://www.navtool.cn/tool/1521.html",
+      "tags": [
+        "mindmap",
+        "diagrams"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_mind_map",
+      "name_en": "Zhixi AI",
+      "description_en": "Generate mind maps from a topic."
+    },
+    {
+      "id": "navtool-1508",
+      "name": "TreeMind树图",
+      "category": "mindmap",
+      "description": "把想法与文档整理为可编辑导图",
+      "url": "https://shutu.cn",
+      "navtool_url": "https://www.navtool.cn/tool/1508.html",
+      "tags": [
+        "mindmap",
+        "documents"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_mind_map",
+      "name_en": "TreeMind",
+      "description_en": "Turn ideas and documents into editable mind maps."
+    },
+    {
+      "id": "navtool-76",
+      "name": "Xmind Copilot",
+      "category": "mindmap",
+      "description": "辅助拓展想法并整理思维结构",
+      "url": "https://app.xmind.com",
+      "navtool_url": "https://www.navtool.cn/tool/76.html",
+      "tags": [
+        "mindmap",
+        "brainstorming"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_mind_map",
+      "name_en": "Xmind Copilot",
+      "description_en": "Expand ideas and organize them into a visual structure."
+    },
+    {
+      "id": "navtool-114",
+      "name": "Mapify",
+      "category": "mindmap",
+      "description": "把文档、链接等内容总结为思维导图",
+      "url": "https://mapify.so",
+      "navtool_url": "https://www.navtool.cn/tool/114.html",
+      "tags": [
+        "mindmap",
+        "summarization"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_mind_map",
+      "name_en": "Mapify",
+      "description_en": "Summarize documents, links, and other material as mind maps."
+    },
+    {
+      "id": "navtool-2423",
+      "name": "Tactiq",
+      "category": "meetings",
+      "description": "转写在线会议并整理摘要与行动项",
+      "url": "https://tactiq.io",
+      "navtool_url": "https://www.navtool.cn/tool/2423.html",
+      "tags": [
+        "meeting",
+        "transcription"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_meeting_tools",
+      "name_en": "Tactiq",
+      "description_en": "Transcribe online meetings and organize summaries and action items."
+    },
+    {
+      "id": "navtool-2283",
+      "name": "Fathom",
+      "category": "meetings",
+      "description": "整理会议转写、摘要和行动项",
+      "url": "https://www.fathom.ai",
+      "navtool_url": "https://www.navtool.cn/tool/2283.html",
+      "tags": [
+        "meeting",
+        "transcription"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_meeting_tools",
+      "name_en": "Fathom",
+      "description_en": "Organize meeting transcripts, summaries, and action items."
+    },
+    {
+      "id": "navtool-2421",
+      "name": "tl;dv",
+      "category": "meetings",
+      "description": "记录会议并整理转写与后续行动",
+      "url": "https://tldv.io",
+      "navtool_url": "https://www.navtool.cn/tool/2421.html",
+      "tags": [
+        "meeting",
+        "transcription"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_meeting_tools",
+      "name_en": "tl;dv",
+      "description_en": "Record meetings and organize transcripts and follow-up actions."
+    },
+    {
+      "id": "navtool-2304",
+      "name": "Granola",
+      "category": "meetings",
+      "description": "结合个人笔记与会议转写生成摘要",
+      "url": "https://www.granola.ai",
+      "navtool_url": "https://www.navtool.cn/tool/2304.html",
+      "tags": [
+        "meeting",
+        "notes"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_meeting_tools",
+      "name_en": "Granola",
+      "description_en": "Combine personal notes and meeting transcripts into summaries."
+    },
+    {
+      "id": "navtool-78",
+      "name": "飞书妙记",
+      "category": "meetings",
+      "description": "整理音视频会议内容与纪要",
+      "url": "https://future.feishu.cn",
+      "navtool_url": "https://www.navtool.cn/tool/78.html",
+      "tags": [
+        "meeting",
+        "transcription"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_meeting_tools",
+      "name_en": "Feishu Minutes",
+      "description_en": "Organize recorded meetings into transcripts and notes."
+    },
+    {
+      "id": "navtool-121",
+      "name": "Otter.ai",
+      "category": "meetings",
+      "description": "记录会议并生成转写与摘要",
+      "url": "https://otter.ai",
+      "navtool_url": "https://www.navtool.cn/tool/121.html",
+      "tags": [
+        "meeting",
+        "transcription"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_meeting_tools",
+      "name_en": "Otter.ai",
+      "description_en": "Record meetings and create transcripts and summaries."
+    },
+    {
+      "id": "navtool-641",
+      "name": "DeepL 翻译",
+      "category": "translation",
+      "description": "翻译文本与文档中的跨语言内容",
+      "url": "https://www.deepl.com/en/translator",
+      "navtool_url": "https://www.navtool.cn/tool/641.html",
+      "tags": [
+        "translation",
+        "documents"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_translation_tools",
+      "name_en": "DeepL",
+      "description_en": "Translate text and documents across languages."
+    },
+    {
+      "id": "navtool-639",
+      "name": "Google 翻译",
+      "category": "translation",
+      "description": "进行文本、语音与图像翻译",
+      "url": "https://translate.google.com",
+      "navtool_url": "https://www.navtool.cn/tool/639.html",
+      "tags": [
+        "translation",
+        "multimodal"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_translation_tools",
+      "name_en": "Google Translate",
+      "description_en": "Translate text, speech, and images."
+    },
+    {
+      "id": "navtool-656",
+      "name": "百度翻译",
+      "category": "translation",
+      "description": "辅助文本与多种内容形式的翻译",
+      "url": "https://fanyi.baidu.com",
+      "navtool_url": "https://www.navtool.cn/tool/656.html",
+      "tags": [
+        "translation",
+        "assistant"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_translation_tools",
+      "name_en": "Baidu Translate",
+      "description_en": "Translate text and other supported content formats."
+    },
+    {
+      "id": "navtool-647",
+      "name": "腾讯交互翻译",
+      "category": "translation",
+      "description": "辅助文本翻译与交互式修改",
+      "url": "https://transmart.qq.com/zh-CN/index",
+      "navtool_url": "https://www.navtool.cn/tool/647.html",
+      "tags": [
+        "translation",
+        "editing"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_translation_tools",
+      "name_en": "Tencent Transmart",
+      "description_en": "Translate text and refine the result interactively."
+    },
+    {
+      "id": "navtool-658",
+      "name": "火山翻译",
+      "category": "translation",
+      "description": "辅助文本与文档翻译",
+      "url": "https://translate.volcengine.com",
+      "navtool_url": "https://www.navtool.cn/tool/658.html",
+      "tags": [
+        "translation",
+        "documents"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_translation_tools",
+      "name_en": "Volcengine Translate",
+      "description_en": "Translate text and documents."
+    },
+    {
+      "id": "navtool-662",
+      "name": "讯飞智能翻译",
+      "category": "translation",
+      "description": "处理多语言文本与语音翻译",
+      "url": "https://fanyi.xfyun.cn",
+      "navtool_url": "https://www.navtool.cn/tool/662.html",
+      "tags": [
+        "translation",
+        "audio"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_translation_tools",
+      "name_en": "iFLYTEK Translation",
+      "description_en": "Translate multilingual text and speech."
+    },
+    {
+      "id": "navtool-997",
+      "name": "动手学深度学习",
+      "category": "learning",
+      "description": "通过代码、数学与实例学习深度学习",
+      "url": "https://zh.d2l.ai",
+      "navtool_url": "https://www.navtool.cn/tool/997.html",
+      "tags": [
+        "learning",
+        "deep-learning"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_learning_website",
+      "name_en": "Dive into Deep Learning",
+      "description_en": "Learn deep learning through code, mathematics, and practical examples."
+    },
+    {
+      "id": "navtool-1354",
+      "name": "提示工程指南",
+      "category": "learning",
+      "description": "学习提示词设计方法与应用示例",
+      "url": "https://www.promptingguide.ai/zh",
+      "navtool_url": "https://www.navtool.cn/tool/1354.html",
+      "tags": [
+        "learning",
+        "prompting"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_learning_website",
+      "name_en": "Prompt Engineering Guide",
+      "description_en": "Learn prompting methods and application patterns."
+    },
+    {
+      "id": "navtool-987",
+      "name": "ML for Beginners",
+      "category": "learning",
+      "description": "通过课程与示例入门机器学习",
+      "url": "https://microsoft.github.io/ml-for-beginners",
+      "navtool_url": "https://www.navtool.cn/tool/987.html",
+      "tags": [
+        "learning",
+        "machine-learning"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_learning_website",
+      "name_en": "ML for Beginners",
+      "description_en": "Learn machine learning through lessons and examples."
+    },
+    {
+      "id": "navtool-974",
+      "name": "Generative AI for Beginners",
+      "category": "learning",
+      "description": "通过课程与示例入门生成式 AI",
+      "url": "https://microsoft.github.io/generative-ai-for-beginners/",
+      "navtool_url": "https://www.navtool.cn/tool/974.html",
+      "tags": [
+        "learning",
+        "generative-ai"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_learning_website",
+      "name_en": "Generative AI for Beginners",
+      "description_en": "Learn generative AI through lessons and practical examples."
+    },
+    {
+      "id": "navtool-985",
+      "name": "DeepLearning.AI",
+      "category": "learning",
+      "description": "学习 AI 与深度学习相关课程",
+      "url": "https://www.deeplearning.ai",
+      "navtool_url": "https://www.navtool.cn/tool/985.html",
+      "tags": [
+        "learning",
+        "deep-learning"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_learning_website",
+      "name_en": "DeepLearning.AI",
+      "description_en": "Study AI and deep-learning topics through courses."
+    },
+    {
+      "id": "navtool-976",
+      "name": "Kaggle",
+      "category": "learning",
+      "description": "通过数据集、竞赛与示例练习数据科学",
+      "url": "https://www.kaggle.com",
+      "navtool_url": "https://www.navtool.cn/tool/976.html",
+      "tags": [
+        "learning",
+        "data-science"
+      ],
+      "source_url": "https://www.navtool.cn/tools/ai_learning_website",
+      "name_en": "Kaggle",
+      "description_en": "Practice data science with datasets, competitions, and examples."
+    }
+  ]
+}
