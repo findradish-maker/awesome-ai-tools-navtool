@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "title": "Awesome AI Tools · 探兔AI导航",
   "website": "https://www.navtool.cn/",
-  "updated_at": "2026-10-19",
+  "updated_at": "2026-10-24",
   "sources": [
     "https://www.navtool.cn/",
     "https://www.navtool.cn/tools/ai_audio_tools",
@@ -1999,6 +1999,41 @@
       "source_url": "https://www.navtool.cn/tools/ai_learning_website",
       "name_en": "Kaggle",
       "description_en": "Practice data science with datasets, competitions, and examples."
+    },
+    {
+      "id": "community-artgen",
+      "name": "artgen",
+      "category": "image",
+      "description": "浏览器端将照片转为像素画或 ASCII 艺术的 AI 工具",
+      "url": "https://artgen.net/en/tools/image-to-pixel-art",
+      "navtool_url": null,
+      "tags": [
+        "image",
+        "pixel-art",
+        "ascii",
+        "creative"
+      ],
+      "source_url": "https://artgen.net/en/tools/image-to-pixel-art",
+      "name_en": "artgen",
+      "description_en": "Browser AI tools that turn photos into pixel art and ASCII art."
+    },
+    {
+      "id": "community-system-one-api",
+      "name": "System One API",
+      "category": "coding",
+      "description": "兼容 OpenAI 的多供应商 AI 网关/API，用于跨厂商路由大模型调用（早期开源，GitHub stars≈2）",
+      "url": "https://system-one.dev/en/api",
+      "navtool_url": null,
+      "tags": [
+        "api",
+        "gateway",
+        "llm",
+        "openai-compatible",
+        "developer"
+      ],
+      "source_url": "https://github.com/ziyu/system-one-sdk",
+      "name_en": "System One API",
+      "description_en": "OpenAI-compatible multi-provider AI gateway/API for routing LLM calls (early OSS, GitHub stars ≈ 2)."
     }
   ]
 }
